@@ -10,7 +10,7 @@ function appendToDisplay(value) {
     document.getElementById("display").value += value;
 }
 
-// Function to calculate the result
+// Function to calculate the results
 function calculateResult() {
     const display = document.getElementById("display");
     const expression = display.value;

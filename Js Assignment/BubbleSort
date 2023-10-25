@@ -1,5 +1,5 @@
 //Javascript Problem
-// B) Perform sorting of an array in descending order. .
+// B) Perform sorting of an array in descending order
  
 function bubbleSortDescending(arr) {
     let n = arr.length;
