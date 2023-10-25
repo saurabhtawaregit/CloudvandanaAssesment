@@ -1,0 +1,122 @@
+body {
+    background-color: #3498db; /* Blue background color */
+    display: flex;
+    flex-direction: column; /* To stack header, text, and form vertically */
+    align-items: center; /* Center everything horizontally */
+    justify-content: flex; /* Center header and form vertically */
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    background-color: #fff; /* White background color */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 100%; /* Full width of the page */
+    text-align: center; /* Center text within header */
+}
+
+main {
+    background-color: #fff; /* White background color */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 400px; /* Increase the width as needed */
+    text-align: center; /* Center text within main */
+}
+
+form {
+    background-color: #fff; /* White background color */
+    padding: 20px; /* Equal padding on both left and right sides */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 100%; /* Full width of the parent container */
+    max-width: 600px; /* Limit the maximum width of the form */
+    height: 450px; /* Increase the height as needed */
+    padding-right: 32px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group {
+    flex: 0 0 48%; /* Adjust the width as needed */
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.radio-group {
+    display: flex;
+    margin-top: 5px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+    
+}
+
+textarea {
+    width: 98%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #000; /* Black border */
+    border-radius: 3px;
+    height: 50px;
+}
+
+input[type="submit"] {
+    background-color: #3498db; /* Blue background color */
+    color: #fff; /* Text color */
+    padding: 15px 30px; /* Increase size by adjusting padding */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="reset"] {
+    background-color: #ccc; /* Light background color for the reset button */
+    color: #000; /* Text color */
+    padding: 15px 30px; /* Increase size by adjusting padding */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.text-container {
+    padding-top: 15px;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-family: Calibri;
+}
+
+.text-footer {
+    padding-top: 15px;
+    color: white;
+    
+}
+
+.blue-text {
+    color: #093273;
+}
+
+
+
+
+

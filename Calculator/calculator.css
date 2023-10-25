@@ -1,0 +1,51 @@
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.textbox {
+    width: 73%;
+    padding: 10px;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid grey; /* Add a grey border */
+    margin: 0;
+}
+
+
+
+.ac-button {
+    width: 27%;
+    padding: 10px;
+    background-color: #25b8b8;
+    color: #fff;
+    border: 1px solid #25b8b8;
+    margin: 0; /* Remove the margin */
+    cursor: pointer;
+}
+
+.number-button, .operator-button {
+    width: 25%;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    margin: 0;
+    cursor: pointer;
+}
+
+.operator-button {
+    background-color: grey;
+}
+
+.calculator {
+    width: 300px;
+    margin: 0 auto;
+    background-color: grey; /* Add a grey background color */
+}
